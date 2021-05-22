@@ -16,7 +16,7 @@ export default function Films({ showFilm }) {
   if (!film) {
     return <div>Loading film...</div>;
   }
-  const { Title, Year, imdbRating, Poster } = pelicula;
+  const { Title, Year, imdbRating, Poster } = film;
   let color;
   let calificacion;
   if (imdbRating >= 7.5) {
